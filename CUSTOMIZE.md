@@ -181,7 +181,7 @@ Here is a list of the main components that you may want to delete, and how to do
 To remove the blog, you have to:
 
 - delete [\_posts](_posts/) directory
-- delete blog page [\_pages/blog.md](_pages/blog.md)
+- delete blog page \_pages/blog.md
 - remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
 - remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
 - remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives`
