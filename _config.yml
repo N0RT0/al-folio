@@ -50,9 +50,9 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
 bib_search: false
 
 # Dimensions
@@ -175,6 +175,11 @@ exclude:
   - vendor
   - _news/
   - _includes/news.liquid
+  - _pages/repositories.md
+  - _includes/repository/
+  - _pages/dropdown.md
+  - _pages/teaching.md 
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
