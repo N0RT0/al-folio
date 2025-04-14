@@ -6,7 +6,7 @@
     "email": "charlespnortonjr@gmail.com",
     "phone": "+1 (616) 406-9833",
     "url": "",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Grand Valley State University",
+      "location": "Grand Rapids, Michigan",
+      "url": "https://www.gvsu.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelors Degree",
+      "startDate": "2022-01-01",
+      "endDate": "Now",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Circuit Analysis", "Electronic Circuits", "Embedded System Design", "Signals and Systems Analysis", "Power Systems Analysis", "Applied Electromagnetics"]
     }
   ],
   "awards": [
