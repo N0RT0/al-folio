@@ -24,13 +24,40 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Koops Automation Systems - Holland, Michigan",
+      "position": "Engineering Co op",
+      "url": "https://koops.com/",
+      "startDate": "2024-05-01",
+      "endDate": "2025-05-01",
+      "summary": "The work done at Koops Automation Systems happened in two 15 week intervals. The first 15 week interval consisted of controlls programming, while the second 15 week interval consisted of project engineering",
+      "highlights": ["Prototyped an automated bagging solution for car seats, involving iterative testing and refinement to optimize the packaging process","Implemented data tracking functionalities within the PLC and HMI systems, enabling real-time monitoring and analysis of the manufacturing process.","Participated in the on-site integration of a tractor seat manufacturing machine, gaining hands-on experience in the deployment and startup of industrial automation equipment.","Developed comprehensive user documentation for a Human-Machine Interface (HMI), providing clear and concise instructions for operation and monitoring of automated systems."]
+    },
+    {
+      "name": "The B.O.B. - Grand Rapids, Michigan",
+      "position": "Hospitality and Safety Manager",
+      "url": "https://www.thebob.com/",
+      "startDate": "2021-07-01",
+      "endDate": "2021-12-01",
+      "summary": "",
+      "highlights": ["Managed a staff of more than 25 employees that curated a welcoming, friendly environment free from danger","Created, filed and maintained records of physical assets, incidents, and employee reviews for the liability of the company","Anticipated the needs of guests and ensured that guests felt welcome","Ensured the building was up to standard with city fire code to prevent unnecessary disasters"]
+    },
+    {
+      "name": "Fifth Wheel Freight - Kentwood Michigan",
+      "position": "Logistics Consultant / Over Dimensional Operations",
+      "url": "https://www.fwf.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-01",
+      "summary": "",
+      "highlights": ["Managed more than 20 unique accounts requiring logistical consulting on specialized freight","Negotiated contracts with carriers in a manner that optimized profits","Kept accurate records of relevant activities","Maintained up-to-date knowledge of market trends in the transportation marketplace"]
+    },
+    {
+      "name": "United States Marine Corps - Camp Lejeune NC",
+      "position": "Embarkation Logistics Chief",
+      "url": "",
+      "startDate": "2013-06-01",
+      "endDate": "2017-04-01",
+      "summary": "",
+      "highlights": ["Served as a custodian of classified documents","Trained in the application of automated information systems that are utilized throught the Defense Transportation System to account, track, and interface movement data with load planning programs to support the force deployment planning and execution process","Communicated urgent orders and directions effectively to a team of 500 personnel resulting in one of the larges railhead operations in recent Camp Lejeune history","Assisted with the preparation, planning, and execution of strategic mobility plans used to deploy and sustain forward deployed forces"]
     }
   ],
   "volunteer": [
