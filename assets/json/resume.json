@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Koops Automation Systems - Holland, Michigan",
+      "name": "Koops Automation Systems - Holland, MI",
       "position": "Engineering Co op",
       "url": "https://koops.com/",
       "startDate": "2024-05-01",
@@ -33,7 +33,7 @@
       "highlights": ["Prototyped an automated bagging solution for car seats, involving iterative testing and refinement to optimize the packaging process","Implemented data tracking functionalities within the PLC and HMI systems, enabling real-time monitoring and analysis of the manufacturing process.","Participated in the on-site integration of a tractor seat manufacturing machine, gaining hands-on experience in the deployment and startup of industrial automation equipment.","Developed comprehensive user documentation for a Human-Machine Interface (HMI), providing clear and concise instructions for operation and monitoring of automated systems."]
     },
     {
-      "name": "The B.O.B. - Grand Rapids, Michigan",
+      "name": "The B.O.B. - Grand Rapids, MI",
       "position": "Hospitality and Safety Manager",
       "url": "https://www.thebob.com/",
       "startDate": "2021-07-01",
@@ -42,7 +42,7 @@
       "highlights": ["Managed a staff of more than 25 employees that curated a welcoming, friendly environment free from danger","Created, filed and maintained records of physical assets, incidents, and employee reviews for the liability of the company","Anticipated the needs of guests and ensured that guests felt welcome","Ensured the building was up to standard with city fire code to prevent unnecessary disasters"]
     },
     {
-      "name": "Fifth Wheel Freight - Kentwood Michigan",
+      "name": "Fifth Wheel Freight - Kentwood MI",
       "position": "Logistics Consultant / Over Dimensional Operations",
       "url": "https://www.fwf.com/",
       "startDate": "2019-01-01",
@@ -51,7 +51,7 @@
       "highlights": ["Managed more than 20 unique accounts requiring logistical consulting on specialized freight","Negotiated contracts with carriers in a manner that optimized profits","Kept accurate records of relevant activities","Maintained up-to-date knowledge of market trends in the transportation marketplace"]
     },
     {
-      "name": "United States Marine Corps - Camp Lejeune NC",
+      "name": "United States Marine Corps - Camp Lejeune, NC",
       "position": "Embarkation Logistics Chief",
       "url": "",
       "startDate": "2013-06-01",
@@ -75,7 +75,7 @@
   "education": [
     {
       "institution": "Grand Valley State University",
-      "location": "Grand Rapids, Michigan",
+      "location": "Grand Rapids, MI",
       "url": "https://www.gvsu.edu/",
       "area": "Electrical Engineering",
       "studyType": "Bachelors Degree",
@@ -163,17 +163,54 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C",
+        "Python",
+        "MATLAB"
       ]
+    },
+    {
+      "name": "PLC Programming",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cogs",
+      "keywords": [
+        "Allen Bradley",
+        "Studio 5000",
+        "Industrial Automation Integration"
+      ]
+    },
+    {
+      "name": "Instrumentation & Measurement",
+      "level": "Beginner",
+      "icon": "fa-solid fa-ruler-combined",
+      "keywords": [
+        "Multimeters",
+        "Oscilloscopes",
+        "Data Acquisition"
+      ]
+    },
+    {
+      "name": "Microcontrollers",
+      "level": "Beginner",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Arduino",
+        "STM32 Microcontrollers",
+        "Embedded Systems"
+      ]
+    },
+    {
+    "name": "Technical Documentation",
+    "level": "Intermediate",
+    "icon": "fa-solid fa-file-alt",
+    "keywords": [
+      "Report Writing",
+      "User Manuals",
+      "Schematics"
+    ]
     }
   ],
   "languages": [
