@@ -550,7 +550,7 @@ jsonresume:
   - work
   - education
   # - publications
-  - projects
+  # - projects
   # - volunteer
   # - awards
   # - certificates
