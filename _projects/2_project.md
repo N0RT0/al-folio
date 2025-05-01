@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Karaoke Machine 
+description: A microphone and speakers with inputs for music! 
+img: assets/img/2_project/2_finished_0.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

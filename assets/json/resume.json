@@ -78,9 +78,9 @@
       "location": "Grand Rapids, MI",
       "url": "https://www.gvsu.edu/",
       "area": "Electrical Engineering",
-      "studyType": "Bachelors Degree",
-      "startDate": "2022-01-01",
-      "endDate": "Now",
+      "studyType": "Combined B.S. / M.S.E. Degree Program",
+      "startDate": "Expected",
+      "endDate": "2027-05-01",
       "score": "10",
       "courses": ["Circuit Analysis", "Electronic Circuits", "Embedded System Design", "Signals and Systems Analysis", "Power Systems Analysis", "Applied Electromagnetics"]
     }
