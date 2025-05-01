@@ -2,7 +2,7 @@
 layout: page
 title: Skeeball Trivia
 description: Engaging take on the game of skeeball that includes trivia questions.
-img: assets/img/4_project/4_gameplay_0.HEIC
+img: assets/img/4_gameplay_0.HEIC
 importance: 3
 category: fun
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Digital Monster Pet
 description: A highly interactive embedded system of a simulated pet that reacted to user interaction
-img: assets/img/3_project/3_finished_0.jpg
+img: assets/img/3_finished_0.jpg
 importance: 3
 category: work
 ---

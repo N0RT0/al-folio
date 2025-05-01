@@ -2,7 +2,7 @@
 layout: page
 title: Karaoke Machine 
 description: A microphone and speakers with inputs for music! 
-img: assets/img/2_project/2_finished_0.jpg
+img: assets/img/2_finished_0.jpg
 importance: 2
 category: work
 giscus_comments: false
