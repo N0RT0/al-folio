@@ -8,7 +8,9 @@ category: work
 related_publications: false
 ---
 
-Working with two other teammates, we tackled the challenge of building a robot that could follow a line using an Arduino Uno and a QTR reflective sensor array. The big aim was speed – getting it around a set course as quickly as we could. But, there was this extra bit where it also had to recognize reflective panels that would be randomly placed along the track. Basically, it had to nudge them to know it saw them and then keep going. I personally played a major part in the system for navigating the course and the steering system – plus a few other things along the way.
+Working with two other teammates, we tackled the challenge of building a robot that could follow a line using an Arduino Uno and a QTR reflective sensor array. The big aim was speed – getting it around a set course as quickly as we could. But, there was this extra bit where it also had to recognize reflective panels that would be randomly placed along the track. Basically, it had to nudge them to know it saw them and then keep going. 
+
+I personally played a major part in the system for navigating the course and the steering system – plus a few other things along the way.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
