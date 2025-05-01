@@ -70,17 +70,3 @@ $$
 Where $y$ is the value written to the function that controls the servo and $x$ is the value being read from the QTR sensor
 
 This linear mapping also took care of the deviations from the line. If the robot started to drift off, say to the right, the sensor readings would drop towards 0. That mapped value would then continuously tell the servo to steer harder and harder to the right until the line was back under the sensor. It was a constant, real-time correction – the robot was always 'looking' at the line and adjusting its course.
-
-<!-- <div class="row justify-content-sm-center"> -->
-<!--     <div class="col-sm-8 mt-3 mt-md-0"> -->
-<!--         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %} -->
-<!--     </div> -->
-<!--     <div class="col-sm-4 mt-3 mt-md-0"> -->
-<!--         {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %} -->
-<!--     </div> -->
-<!-- </div> -->
-<!-- <div class="caption"> -->
-<!--     You can also have artistically styled 2/3 + 1/3 images, like these. -->
-<!-- </div> -->
-
-
