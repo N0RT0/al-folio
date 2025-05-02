@@ -32,6 +32,7 @@ Our team's effort landed us a first place finish among 15 other teams of student
 <!--     This image can also have a caption. It's like magic. -->
 <!-- </div> -->
 
+### Navigation
 So, how did we actually make the robot follow the line? Well, using a pre-made library, the QTR sensor array gave us a range of values from 0 all the way up to 7000. Think of it like a little eye that tells us where the black line is with respect to the sensor. A reading of 0 meant the line was way over to the right of the sensor, and 7000 meant it was all the way to the left.
 
 My job was to take that raw data and turn it into something the robot could understand for steering. I basically created a simple, linear map.
@@ -70,3 +71,6 @@ $$
 Where $y$ is the value written to the function that controls the servo and $x$ is the value being read from the QTR sensor
 
 This linear mapping also took care of the deviations from the line. If the robot started to drift off, say to the right, the sensor readings would drop towards 0. That mapped value would then continuously tell the servo to steer harder and harder to the right until the line was back under the sensor. It was a constant, real-time correction – the robot was always 'looking' at the line and adjusting its course.
+
+### Sensing IR Reflectors
+After navigation was taken care of, we had to ensure that the robot could identify and acknowledge an IR reflector. 
