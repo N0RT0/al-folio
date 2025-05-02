@@ -4,7 +4,7 @@ title: Line Following Robot
 description: A robot designed to follow a line on the ground
 img: assets/img/1_team.jpg
 importance: 1
-category: work
+category: school
 related_publications: false
 ---
 

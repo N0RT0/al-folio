@@ -4,7 +4,7 @@ title: Skeeball Trivia
 description: Engaging take on the game of skeeball that includes trivia questions.
 img: assets/img/4_gameplay_0.jpg
 importance: 3
-category: fun
+category: school
 ---
 
 
