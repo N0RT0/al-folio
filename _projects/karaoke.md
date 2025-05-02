@@ -14,6 +14,8 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
+![alt text](/assets/img/2_testing.MOV)
+
     ---
     layout: page
     title: project
