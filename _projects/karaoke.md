@@ -8,76 +8,28 @@ category: school
 giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-![alt text](/assets/img/2_testing.MOV)
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project focused on designing and building a functional karaoke system to provide hands-on experience in electronic system design. The objective was to create a system with two audio input channels, a microphone and an auxiliary input capable of delivering clear, noise-free sound through speakers. The design incorporated essential features such as volume control, microphone gain adjustment, and input protection while adhering to specific performance criteria and constraints. This project emphasized practical skills in circuit design, prototyping, and system integration. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/2_finished_0" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/2_finished_1" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+### Project Requirements
+This project focused on the development of a dual-input audio system designed to accommodate both a dedicated microphone circuit, incorporating a microphone and preamplifier, and an auxiliary (Aux) input for integration with external stereo audio sources such as smartphones, laptops, or portable music players. A fundamental objective was to achieve clear and low-noise mixing and conditioning of the incoming audio signals before their amplification and output to two 8 Ω speakers, each requiring a minimum power delivery of 1 W. User interaction was facilitated through dedicated controls for master volume and microphone gain adjustment.
+
+Beyond the core requirements, several potential enhancements were explored to expand the system's functionality. These included the independent routing of the left and right channels from the Aux input to their respective speakers, the addition of Bluetooth connectivity as an input. 
+
+It's important to note that the project was supplied with a single set of primary components. Also, the printed circuit board (PCB) design required thorough validation prior to manufacturing, which was estimated to have a turnaround time of up to two weeks. Ultimately, the success of this project was to be evaluated based on the fulfillment of the defined functional requirements, the quality of the circuit design, and the effectiveness of team collaboration, as assessed through peer feedback.
+
+### System Design and Implementation
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/2_finished_0" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
