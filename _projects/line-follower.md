@@ -73,4 +73,23 @@ Where $y$ is the value written to the function that controls the servo and $x$ i
 This linear mapping also took care of the deviations from the line. If the robot started to drift off, say to the right, the sensor readings would drop towards 0. That mapped value would then continuously tell the servo to steer harder and harder to the right until the line was back under the sensor. It was a constant, real-time correction – the robot was always 'looking' at the line and adjusting its course.
 
 ### Sensing IR Reflectors
-After navigation was taken care of, we had to ensure that the robot could identify and acknowledge an IR reflector. 
+Now, once we had the robot navigating the track, we had to tackle the next part of the challenge: making sure it could 'see' and acknowledge those reflective panels.
+
+To do this, we rigged up an IR pair. We had an IR emitter constantly sending out IR light. Then, we used an IR receiver to detect that light. This receiver was wired up with a resistor, creating a voltage divider. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1_Wiring_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Basically, the more IR light the receiver picked up, the higher the voltage it sent back to the Arduino, which we read as an ADC value. So, when the robot got close to a reflective panel, which would bounce that IR light back, the ADC value would jump up. We set a threshold, and when the ADC value crossed that line, we told the robot, 'Okay, you've seen a panel!' and switched it into a special 'drive straight' mode. This worked out great because the reflective panels were always placed in a way that the robot would end up driving straight towards them.
+
+To make sure the robot knew when it had really reached the panel, we added a bumper at the front. When the robot bumped into the wall (or panel), a little momentary switch on the bumper would get triggered. This was like the robot saying, 'Okay, I'm here!' and we programmed it to back up a bit before going back to its line-following mission.
+
+### State Diagram of the Line Following Robot
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1_State_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
