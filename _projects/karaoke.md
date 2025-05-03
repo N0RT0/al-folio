@@ -12,10 +12,10 @@ This project focused on designing and building a functional karaoke system to pr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/2_finished_0" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_0" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/2_finished_1" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_1" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -29,7 +29,7 @@ It's important to note that the project was supplied with a single set of primar
 ### System Design and Implementation
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/2_finished_0" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_0" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
