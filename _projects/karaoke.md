@@ -12,12 +12,15 @@ This project focused on designing and building a functional karaoke system to pr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_finished_0" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_0.jpg" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_finished_1" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_1.jpg" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+
 
 ### Project Requirements
 This project focused on the development of a dual-input audio system designed to accommodate both a dedicated microphone circuit, incorporating a microphone and preamplifier, and an auxiliary (Aux) input for integration with external stereo audio sources such as smartphones, laptops, or portable music players. A fundamental objective was to achieve clear and low-noise mixing and conditioning of the incoming audio signals before their amplification and output to two 8 Ω speakers, each requiring a minimum power delivery of 1 W. User interaction was facilitated through dedicated controls for master volume and microphone gain adjustment.
@@ -29,7 +32,7 @@ It's important to note that the project was supplied with a single set of primar
 ### System Design and Implementation
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_finished_0" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_0.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
