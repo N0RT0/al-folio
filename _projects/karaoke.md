@@ -20,7 +20,20 @@ This project focused on designing and building a functional karaoke system to pr
 </div>
 
 
-
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid 
+      path="assets/videos/2_testing.mp4" 
+      class="rounded z-depth-1" 
+      controls=true 
+      autoplay=false 
+      muted=false 
+      loop=false 
+      title="Testing the System" 
+      caption="John Testing the System"
+    %}
+  </div>
+</div>
 
 ### Project Requirements
 This project focused on the development of a dual-input audio system designed to accommodate both a dedicated microphone circuit, incorporating a microphone and preamplifier, and an auxiliary (Aux) input for integration with external stereo audio sources such as smartphones, laptops, or portable music players. A fundamental objective was to achieve clear and low-noise mixing and conditioning of the incoming audio signals before their amplification and output to two 8 Ω speakers, each requiring a minimum power delivery of 1 W. User interaction was facilitated through dedicated controls for master volume and microphone gain adjustment.
@@ -28,6 +41,7 @@ This project focused on the development of a dual-input audio system designed to
 Beyond the core requirements, several potential enhancements were explored to expand the system's functionality. These included the independent routing of the left and right channels from the Aux input to their respective speakers, the addition of Bluetooth connectivity as an input. 
 
 It's important to note that the project was supplied with a single set of primary components. Also, the printed circuit board (PCB) design required thorough validation prior to manufacturing, which was estimated to have a turnaround time of up to two weeks. Ultimately, the success of this project was to be evaluated based on the fulfillment of the defined functional requirements, the quality of the circuit design, and the effectiveness of team collaboration, as assessed through peer feedback.
+
 
 ### System Design and Implementation
 <div class="row">
