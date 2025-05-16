@@ -6,6 +6,8 @@ img: assets/img/2_finished_0.jpg
 importance: 2
 category: school
 giscus_comments: false
+toc:
+    sidebar: left
 ---
 
 This project focused on designing and building a functional karaoke system to provide hands-on experience in electronic system design. The objective was to create a system with two audio input channels, a microphone and an auxiliary input capable of delivering clear, noise-free sound through speakers. The design incorporated essential features such as volume control, microphone gain adjustment, and input protection while adhering to specific performance criteria and constraints. This project emphasized practical skills in circuit design, prototyping, and system integration. 

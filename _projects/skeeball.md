@@ -5,6 +5,8 @@ description: Engaging take on the game of skeeball that includes trivia question
 img: assets/img/4_gameplay_0.jpg
 importance: 3
 category: school
+toc:
+    sidebar: left
 ---
 
 

@@ -5,6 +5,8 @@ description: A highly interactive embedded system of a simulated pet that reacts
 img: assets/img/3_finished_0.jpg
 importance: 3
 category: school
+toc:
+    sidebar: left
 ---
 
 Every project has a beautiful feature showcase page.
