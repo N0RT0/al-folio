@@ -14,10 +14,10 @@ This project focused on designing and building a functional karaoke system to pr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_finished_0.jpg" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_0.jpg" title="karaoke machine (front)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_finished_1.jpg" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_finished_1.jpg" title="karaoke machine (rear)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -31,6 +31,15 @@ This project focused on designing and building a functional karaoke system to pr
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_Insides_3.jpg" title="insides" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_Insides.jpg" title="insides" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 ## Project Requirements
 This project focused on the development of a dual-input audio system designed to accommodate both a dedicated microphone circuit, incorporating a microphone and preamplifier, and an auxiliary (Aux) input for integration with external stereo audio sources such as smartphones, laptops, or portable music players. A fundamental objective was to achieve clear and low-noise mixing and conditioning of the incoming audio signals before their amplification and output to two 8 Ω speakers, each requiring a minimum power delivery of 1 W. User interaction was facilitated through dedicated controls for master volume and microphone gain adjustment.
 
@@ -40,7 +49,11 @@ It's important to note that the project was supplied with a single set of primar
 
 
 ## System Design and Implementation
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Prototyping Phase" %}
+    </div>
+</div>
 ### System Block Diagram
 
 <div class="row">
@@ -101,6 +114,7 @@ The microphone subcircuit amplifies the output of the microphone by a gain of 25
 The voltage follower circuit is set up with a voltage divider to set the positive terminal to the op-amp to VCC/2 or 4.5V. Capacitors 2 and 27 were set as decoupling capacitors near the source input and input to the op-amp to reduce noise to the circuit. 
 
 ## Testing
+
 
 ### Power Requirement
 
