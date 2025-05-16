@@ -20,20 +20,13 @@ This project focused on designing and building a functional karaoke system to pr
 </div>
 
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid 
-      path="assets/videos/2_testing.mp4" 
-      class="rounded z-depth-1" 
-      style="max-width: 100%; height: auto;"
-      controls=true 
-      autoplay=true 
-      muted=true
-      loop=true 
-      title="Testing the System" 
-      caption="John Testing the System"
-    %}
-  </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/2_unscrew.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
 </div>
 
 ### Project Requirements
