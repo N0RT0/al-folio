@@ -64,7 +64,7 @@ To satisfy the requirement of stereo sound the two identical and independent aud
     </div>
 </div>
 
-The audio Amplification circuit starts with the signal passing through a DC-blocking capacitor. The next part of the amplification circuit was a voltage limiting circuit which limited the input voltage to 1.1V. The signal then passes through a 10 k$\ohm$ potentiometer. Finally, the signal is amplified using an LM386 audio amplifier IC which was set up for a gain of 20 V/V. To achieve a gain of 20V/V, capacitors 19, 20, 21, and 22 were depopulated. The signal then passed through a 470 $\mu$F capacitor before reaching the speaker. 
+The audio Amplification circuit starts with the signal passing through a DC-blocking capacitor. The next part of the amplification circuit was a voltage limiting circuit which limited the input voltage to 1.1V. The signal then passes through a 10 kΩ potentiometer. Finally, the signal is amplified using an LM386 audio amplifier IC which was set up for a gain of 20 V/V. To achieve a gain of 20V/V, capacitors 19, 20, 21, and 22 were depopulated. The signal then passed through a 470 $\mu$F capacitor before reaching the speaker. 
 
 
 ### Summing Amplifier Subcircuit
@@ -99,3 +99,40 @@ The microphone subcircuit amplifies the output of the microphone by a gain of 25
 </div>
 
 The voltage follower circuit is set up with a voltage divider to set the positive terminal to the op-amp to VCC/2 or 4.5V. Capacitors 2 and 27 were set as decoupling capacitors near the source input and input to the op-amp to reduce noise to the circuit. 
+
+## Testing
+
+### Power Requirement
+
+To test the 1 W power requirement of the speaker, the speaker was disconnected and a 0.5 Vp 1 kHz sine wave was applied from a function generator to one of the summing amplifier inputs. The output signal was then recorded using an oscilloscope. Then the voltage gain was calculated and the power of the output signal was determined. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_input_to_summing.jpg" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Input Signal to Summing Amplifier" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_output_from_summing.jpg" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Output Signal From Summing Amplifier" %}
+    </div>
+</div>
+
+The voltage gain of the circuit was calculated to be 1.76 V/V. With an output load of 10 Ω, the average power of the output signal was calculated to be 38.72 mW, effectively meeting the requirements.
+
+### Gain vs Frequency
+A Gain vs Frequency plot was created to have a visual of the system's response.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_gain_v_hz.png" title="Gain vs Frequency" class="img-fluid rounded z-depth-1" caption="Gain vs Frequency" %}
+    </div>
+</div>
+
+## Remarks
+At the end of the karaoke system project, it was determined that the design and implementation successfully met the majority of the functional requirements. The system was designed and built to include two audio input channels: a microphone circuit with an electret microphone and a preamplifier, and an auxiliary input capable of interfacing with devices such as cell phones, laptops, or music players.
+
+The system effectively drove two 8 Ω speakers with less than 1 W of power delivered, as evidenced by the testing results. User controls, including volume control and microphone gain adjustment, were integrated.
+
+The power supply was designed to be versatile, allowing power to be supplied via batteries. The components were securely and attractively housed in a fixture, meeting the fixture and housing requirements.
+
+Testing results confirmed that the system performed as expected. The voltage gain and power output of the audio signals were within the specified parameters, and the system was able to handle various input frequencies and audio sources without distortion.
+
+The design and implementation of the karaoke system were largely successful in achieving the required objectives. The system demonstrated clear, noise-free sound, effective user controls, and robust power supply options.
