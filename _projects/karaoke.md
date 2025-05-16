@@ -27,7 +27,7 @@ This project focused on designing and building a functional karaoke system to pr
         {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Lab Partner Testing the Projects Progress" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_unscrew.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Power Supply Hidden in the Handle"%}
+        {% include figure.liquid loading="eager" path="assets/img/unscrew.gif" title="Power Supply" class="img-fluid rounded z-depth-1" caption="Power Supply Hidden in the Handle" %}
     </div>
 </div>
 
