@@ -34,7 +34,7 @@ Our team's effort landed us a first place finish among 15 other teams of student
 <!--     This image can also have a caption. It's like magic. -->
 <!-- </div> -->
 
-### Navigation
+## Navigation
 So, how did we actually make the robot follow the line? Well, using a pre-made library, the QTR sensor array gave us a range of values from 0 all the way up to 7000. Think of it like a little eye that tells us where the black line is with respect to the sensor. A reading of 0 meant the line was way over to the right of the sensor, and 7000 meant it was all the way to the left.
 
 My job was to take that raw data and turn it into something the robot could understand for steering. I basically created a simple, linear map.
@@ -74,7 +74,7 @@ Where $y$ is the value written to the function that controls the servo and $x$ i
 
 This linear mapping also took care of the deviations from the line. If the robot started to drift off, say to the right, the sensor readings would drop towards 0. That mapped value would then continuously tell the servo to steer harder and harder to the right until the line was back under the sensor. It was a constant, real-time correction – the robot was always 'looking' at the line and adjusting its course.
 
-### Sensing IR Reflectors
+## Sensing IR Reflectors
 Now, once we had the robot navigating the track, we had to tackle the next part of the challenge: making sure it could 'see' and acknowledge those reflective panels.
 
 To do this, we rigged up an IR pair. We had an IR emitter constantly sending out IR light. Then, we used an IR receiver to detect that light. This receiver was wired up with a resistor, creating a voltage divider. 
@@ -89,7 +89,7 @@ Basically, the more IR light the receiver picked up, the higher the voltage it s
 
 To make sure the robot knew when it had really reached the panel, we added a bumper at the front. When the robot bumped into the wall (or panel), a little momentary switch on the bumper would get triggered. This was like the robot saying, 'Okay, I'm here!' and we programmed it to back up a bit before going back to its line-following mission.
 
-### State Diagram of the Line Following Robot
+## State Diagram of the Line Following Robot
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1_State_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
