@@ -36,3 +36,33 @@ It's important to note that the project was supplied with a single set of primar
     </div>
 </div>
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_L_Amplifier_Circuit.png" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_R_Amplifier_Circuit.png" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_L_Audio_Summing_Circuit.png" title="Left Audio Summing Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_R_Audio_Summing_Circuit.png" title="Right Audio Summing Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_Mic_Circuit.png" title="Microphone Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_halfVCC_Circuit.png" title="Half VCC Circuit DC Biasing Circuit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
