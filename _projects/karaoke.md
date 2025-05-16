@@ -24,10 +24,10 @@ This project focused on designing and building a functional karaoke system to pr
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Lab Partner Testing the Projects Progress" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_unscrew.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/2_unscrew.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Power Supply Hidden in the Handle"%}
     </div>
 </div>
 
