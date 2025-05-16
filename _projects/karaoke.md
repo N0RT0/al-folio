@@ -9,14 +9,7 @@ giscus_comments: false
 toc:
     sidebar: left
 ---
-<!-- swiper container if I want it -->
-<!-- <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-</swiper-container> -->
+
 
 This project focused on designing and building a functional karaoke system to provide hands-on experience in electronic system design. The objective was to create a system with two audio input channels, a microphone and an auxiliary input capable of delivering clear, noise-free sound through speakers. The design incorporated essential features such as volume control, microphone gain adjustment, and input protection while adhering to specific performance criteria and constraints. This project emphasized practical skills in circuit design, prototyping, and system integration. 
 
@@ -32,7 +25,7 @@ This project focused on designing and building a functional karaoke system to pr
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true muted=true caption="Lab Partner Testing the Projects Progress" %}
+        {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Lab Partner Testing the Projects Progress" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/unscrew.gif" title="Power Supply" class="img-fluid rounded z-depth-1" caption="Power Supply Hidden in the Handle" %}
@@ -59,7 +52,7 @@ It's important to note that the project was supplied with a single set of primar
 ## System Design and Implementation
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" muted=true controls=true caption="Prototyping Phase" %}
+        {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Prototyping Phase" %}
     </div>
 </div>
 ### System Block Diagram
