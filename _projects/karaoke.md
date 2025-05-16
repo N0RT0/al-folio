@@ -25,10 +25,11 @@ This project focused on designing and building a functional karaoke system to pr
     {% include video.liquid 
       path="assets/videos/2_testing.mp4" 
       class="rounded z-depth-1" 
+      style="max-width: 100%; height: auto;"
       controls=true 
-      autoplay=false 
-      muted=false 
-      loop=false 
+      autoplay=true 
+      muted=true
+      loop=true 
       title="Testing the System" 
       caption="John Testing the System"
     %}
