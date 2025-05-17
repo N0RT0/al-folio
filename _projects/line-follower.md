@@ -18,21 +18,15 @@ Our team's effort landed us a first place finish among 15 other teams of student
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_flag_hit.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_flag_hit.gif" title="Flag Detection" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_picture.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_picture.jpg" title="Line Follower" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_lap.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_lap.gif" title="One Lap" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<!-- <div class="caption"> -->
-<!--     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles. -->
-<!-- </div> -->
-<!-- <div class="caption"> -->
-<!--     This image can also have a caption. It's like magic. -->
-<!-- </div> -->
 
 ## Navigation
 So, how did we actually make the robot follow the line? Well, using a pre-made library, the QTR sensor array gave us a range of values from 0 all the way up to 7000. Think of it like a little eye that tells us where the black line is with respect to the sensor. A reading of 0 meant the line was way over to the right of the sensor, and 7000 meant it was all the way to the left.
@@ -41,7 +35,7 @@ My job was to take that raw data and turn it into something the robot could unde
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_graphs.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_graphs.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -81,7 +75,7 @@ To do this, we rigged up an IR pair. We had an IR emitter constantly sending out
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_Wiring_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_Wiring_Diagram.png" title="Wiring Diagram" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -92,6 +86,6 @@ To make sure the robot knew when it had really reached the panel, we added a bum
 ## State Diagram of the Line Following Robot
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1_State_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1_State_Diagram.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>

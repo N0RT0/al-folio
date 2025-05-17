@@ -54,10 +54,6 @@ It's important to note that the project was supplied with a single set of primar
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Prototyping Phase" %}
     </div>
-</div>
-### System Block Diagram
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/2_system_block_diagram.png" title="System Block Diagram" class="img-fluid rounded z-depth-1" caption="System Block Diagram" %}
     </div>
@@ -74,7 +70,7 @@ To satisfy the requirement of stereo sound the two identical and independent aud
         {% include figure.liquid loading="eager" path="assets/img/2_L_Amplifier_Circuit.png" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Left Audio Amplifier Circuit" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_R_Amplifier_Circuit.png" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Right Audio Amplifier Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_R_Amplifier_Circuit.png" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Right Audio Amplifier Circuit" zoomable=true %}
     </div>
 </div>
 
