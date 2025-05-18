@@ -28,7 +28,7 @@ This project focused on designing and building a functional karaoke system to pr
         {% include video.liquid path="assets/video/2_testing.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Lab Partner Testing the Project's Progress" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/unscrew.gif" title="Power Supply" class="img-fluid rounded z-depth-1" caption="Power Supply Hidden in the Handle" %}
+        {% include figure.liquid loading="eager" path="assets/img/unscrew.gif" title="Power Supply" class="img-fluid rounded z-depth-1" caption="Power Supply Hidden in the Handle" zoomable=true %}
     </div>
 </div>
 
@@ -54,8 +54,11 @@ It's important to note that the project was supplied with a single set of primar
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true caption="Prototyping Phase" %}
     </div>
+</div>
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_system_block_diagram.png" title="System Block Diagram" class="img-fluid rounded z-depth-1" caption="System Block Diagram" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_system_block_diagram.png" title="System Block Diagram" class="img-fluid rounded z-depth-1" caption="System Block Diagram" zoomable=true %}
     </div>
 </div>
 
@@ -67,7 +70,7 @@ To satisfy the requirement of stereo sound the two identical and independent aud
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_L_Amplifier_Circuit.png" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Left Audio Amplifier Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_L_Amplifier_Circuit.png" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Left Audio Amplifier Circuit" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/2_R_Amplifier_Circuit.png" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Right Audio Amplifier Circuit" zoomable=true %}
@@ -81,10 +84,10 @@ The audio Amplification circuit starts with the signal passing through a DC-bloc
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_L_Audio_Summing_Circuit.png" title="Left Audio Summing Circuit" class="img-fluid rounded z-depth-1" caption="Left Audio Summing Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_L_Audio_Summing_Circuit.png" title="Left Audio Summing Circuit" class="img-fluid rounded z-depth-1" caption="Left Audio Summing Circuit" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_R_Audio_Summing_Circuit.png" title="Right Audio Summing Circuit" class="img-fluid rounded z-depth-1" caption="Right Audio Summing Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_R_Audio_Summing_Circuit.png" title="Right Audio Summing Circuit" class="img-fluid rounded z-depth-1" caption="Right Audio Summing Circuit" zoomable=true %}
     </div>
 </div>
 
@@ -94,7 +97,7 @@ The right and left audio summing circuits both take inputs from the bluetooth mo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_Mic_Circuit.png" title="Microphone Circuit" class="img-fluid rounded z-depth-1" caption="Microphone Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_Mic_Circuit.png" title="Microphone Circuit" class="img-fluid rounded z-depth-1" caption="Microphone Circuit" zoomable=true %}
     </div>
 </div>
 
@@ -104,7 +107,7 @@ The microphone subcircuit amplifies the output of the microphone by a gain of 25
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_halfVCC_Circuit.png" title="Half VCC DC Biasing Circuit" class="img-fluid rounded z-depth-1" caption="Half VCC DC Biasing Circuit" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_halfVCC_Circuit.png" title="Half VCC DC Biasing Circuit" class="img-fluid rounded z-depth-1" caption="Half VCC DC Biasing Circuit" zoomable=true %}
     </div>
 </div>
 
@@ -119,10 +122,10 @@ To test the 1 W power requirement of the speaker, the speaker was disconnected a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_input_to_summing.jpg" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Input Signal to Summing Amplifier" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_input_to_summing.jpg" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Input Signal to Summing Amplifier" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_output_from_summing.jpg" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Output Signal From Summing Amplifier" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_output_from_summing.jpg" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Output Signal From Summing Amplifier" zoomable=true %}
     </div>
 </div>
 
@@ -133,7 +136,7 @@ A Gain vs Frequency plot was created to have a visual of the system's response.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_gain_v_hz.png" title="Gain vs Frequency" class="img-fluid rounded z-depth-1" caption="Gain vs Frequency" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_gain_v_hz.png" title="Gain vs Frequency" class="img-fluid rounded z-depth-1" caption="Gain vs Frequency" zoomable=true %}
     </div>
 </div>
 
