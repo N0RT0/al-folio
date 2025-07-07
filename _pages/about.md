@@ -16,8 +16,10 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hi, I'm Charles, an electrical engineering student at Grand Valley State University. I'm passionate about electric and magnetic phenomina, and I'm constantly learning and experimenting to grow my skills.
+Hi, I'm Charles, an electrical engineering student at Grand Valley State University eager to explore diverse aspects of engineering and technology. I’m dedicated to consistently growing my skills through practical experience and focused learning.
 
-Through my studies, I've had the opportunity to work on projects such as a custom karaoke machine and a full size trivia/skeeball game and I'm constantly eager to apply things I learn to real world challenges.
+In my academic journey, I've tackled engaging projects such as building a custom karaoke machine and developing a full-sized interactive trivia/skeeball game. Each project has deepened my understanding and fueled my enthusiasm for applying theoretical knowledge to practical, real-world challenges.
 
-When I'm not studying or working on projects, you can find me travelling, rock climbing or skateboarding. Feel free to explore my portfolio and connect. I'd love to collaborate or hear your thoughts!
+Beyond engineering, I'm an avid traveler, and skateboarder, and overall fitness enjoyer. These hobbies keep me balanced and continually inspire my creativity and problem-solving abilities.
+
+Feel free to explore my portfolio, and don’t hesitate to reach out! I’m always open to collaboration, feedback, or simply sharing ideas.
