@@ -122,10 +122,10 @@ To test the 1 W power requirement of the speaker, the speaker was disconnected a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_input_to_summing.jpg" title="Left Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Input Signal to Summing Amplifier" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/2_input_to_summing.jpg" title="Input Signal to Summing Amplifier" class="img-fluid rounded z-depth-1" caption="Input Signal to Summing Amplifier" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2_output_from_summing.jpg" title="Right Audio Amplifier Circuit" class="img-fluid rounded z-depth-1" caption="Output Signal From Summing Amplifier" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/2_output_from_summing.jpg" title="Output Signal From Summing Amplifier" class="img-fluid rounded z-depth-1" caption="Output Signal From Summing Amplifier" zoomable=true %}
     </div>
 </div>
 
