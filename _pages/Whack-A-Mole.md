@@ -9,8 +9,6 @@ toc:
     sidebar: left
 ---
 
-
-
 ## Whack-A-Mole Embedded Game (STM32)
 
 A complete mini-game system was implemented on an STM32F4 microcontroller platform: an interactive LCD UI, keypad input for “whacks,” hardware push-buttons for mode control, servo-based visual game timer, high-score feedback LED, pseudo-random mole placement, and a compact 3D-printed enclosure. What began as a lab exercise grew into a self-contained demo unit suitable for lab bench demos, recruiting events, or an interactive résumé artifact.
