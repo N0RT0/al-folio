@@ -3,8 +3,10 @@ layout: page
 title: Skeeball Trivia
 description: Engaging take on the game of skeeball that includes trivia questions.
 img: assets/img/4_gameplay_0.jpg
-importance: 3
+importance: 4
 category: school
+images:
+  slider: true
 toc:
     sidebar: left
 ---
@@ -24,13 +26,12 @@ Although this was a collaborative effort, I was primarily responsible for the el
 - Graphical user interface (GUI) design
 - Programming the game logic, trivia system, and I/O handling
 
-Suggested Media:
-
- Block diagram of system architecture
-
- Circuit schematic or breadboard layout
-
- GUI screenshot
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/4_player_select.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/4_Category_1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/4_Category_2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/4_Category_3.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
 
  <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,6 +59,12 @@ Some notable code snippets:
 
 ## Hardware & Electronics
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/4_machine_zoomed_out.JPG" title="Skeeball Machine" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 Main components included:
 - Raspberry Pi 4B
 - IR Breakbeam Sensors (for scoring)
@@ -75,17 +82,16 @@ Main components included:
         {% include figure.liquid loading="eager" path="assets/img/4_Pinout.png" title="Raspberry Pi Pinout" class="img-fluid rounded z-depth-1" caption="Raspberry Pi Pinout" zoomable=true %}
     </div>
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/4_button_circuits.png" title="Button Circuits" class="img-fluid rounded z-depth-1" caption="Raspberry Pi Pinout" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/4_button_circuits.png" title="Button Circuits" class="img-fluid rounded z-depth-1" caption="Button Circuits" zoomable=true %}
     </div>
 </div>
 
-Suggested Diagram:
+To save pins on the Raspberry Pi, the inputs to the buttons were read through an analog to digital converter.
 
- Wiring layout with labeled GPIO pins
-
- Photo of the assembled hardware and game setup
+Because each button was connected to a different voltage divider, the analog to digital converter would read a different voltage depending on which button was pushed.
 
 ## Challenges & Lessons Learned
 

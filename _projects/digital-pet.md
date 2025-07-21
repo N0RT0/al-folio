@@ -9,6 +9,13 @@ toc:
     sidebar: left
 ---
 ## Introduction and Design Background
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/monster_with_cover.JPG" title="Digital Monster Pet" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 This project addresses the design challenge of creating an interactive system inspired by the mimic creature from fantasy games like Dungeons & Dragons and Dark Souls. The objective was to build a responsive, multi-functional system that combines creative inspiration with technical rigor, meeting customer expectations for engagement, precision, and functionality.
 
 The solution leverages the STM32F446RETx microcontroller to integrate multiple sensors, actuators, and display technologies. Key components include a rotary encoder, ultrasonic proximity sensor, Hall effect sensor, LCD RGB graphic display, shift register, seven-segment display, and servo motor. These devices enable proximity detection, input handling, motion control, and visual feedback.
@@ -74,6 +81,12 @@ When setting the time, a timer is initially started, such that if no input is ma
 
 During the proximity check, the monster's eye opens wide; if a person is in proximity, the monster begins to wag its tongue. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tongue_wag.gif" title="Monster Tongue Wag" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 While in the content state, if a hall effect sensor is activated in the head, effectively ‘petting’ the monster, then the monster will transition to the Happy state. Additionally, if a hall effect sensor is activated in the mouth of the monster (‘feeding’ the monster), then the monster will transition to the happy state. The monster will stay in the Happy state while its health is above 80% of its maximum health.
 
 <div class="row">
@@ -117,6 +130,12 @@ The Sleepy state can be entered anytime from the Happy, Content, or Hungry state
 </div>
 
 While in the sleepy state, the monster’s eye narrows, Z-s are displayed on the screen, and the monster makes a sound.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Sleep.gif" title="Sleepy Monster" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ___
 
