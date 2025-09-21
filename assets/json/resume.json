@@ -169,7 +169,8 @@
       "keywords": [
         "C",
         "Python",
-        "MATLAB"
+        "MATLAB",
+        "Julia"
       ]
     },
     {
@@ -189,7 +190,8 @@
       "keywords": [
         "Multimeters",
         "Oscilloscopes",
-        "Data Acquisition"
+        "Spectrum Analyzers",
+        "Function Generators"
       ]
     },
     {
@@ -198,8 +200,8 @@
       "icon": "fa-solid fa-microchip",
       "keywords": [
         "Arduino",
-        "STM32 Microcontrollers",
-        "Embedded Systems"
+        "STM32",
+        "ESP32"
       ]
     },
     {
