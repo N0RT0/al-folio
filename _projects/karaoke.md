@@ -52,7 +52,7 @@ It's important to note that the project was supplied with a single set of primar
 ## System Design and Implementation
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true poster="assets/img/prototyping_phase.png" caption="Prototyping Phase" %}
+        {% include video.liquid path="assets/video/2_breadboard.mp4" class="img-fluid rounded z-depth-1" controls=true poster="assets/img/prototyping_phase.png" caption="Playing A Milli by Lil Wayne on Our Prototyped Breadboard Circuit" %}
     </div>
 </div>
 
