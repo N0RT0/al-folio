@@ -195,6 +195,18 @@
       ]
     },
     {
+      "name": "Unix Based Systems",
+      "level": "Beginner",
+      "icon": "fa-brands fa-linux",
+      "keywords": [
+        "Terminal-based workflows",
+        "Shell scripting",
+        "Git / SSH fundamentals",
+        "Fedora Linux",
+        "Sway / Wayland"
+      ]
+    },
+    {
       "name": "Microcontrollers",
       "level": "Beginner",
       "icon": "fa-solid fa-microchip",
